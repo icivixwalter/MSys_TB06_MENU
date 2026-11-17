@@ -679,3 +679,72 @@ C:/CASA/LINGUAGGI/ACCESS/PROGETTI_MDB/MSYS/MSys_TB06_MENU
 
 === 2a) ADD di tutte le modifiche   [15:34:30]
     COMANDO: git add -A
+warning: in the working copy of 'git_LOG.txt', LF will be replaced by CRLF the next time Git touches it
+    ESITO: OK
+
+=== 2b) COMMIT   [15:34:30]
+    COMANDO: git commit -m "2026_11_17_H15_M34_S30_aggiornamento_MSYS"
+[main 2badb68] 2026_11_17_H15_M34_S30_aggiornamento_MSYS
+ 4 files changed, 209 insertions(+), 77 deletions(-)
+    ESITO: OK
+
+=== 2c) CONTROLLO MAIN SVUOTATO su GitHub   [15:34:31]
+    COMANDO: git fetch origin
+    ESITO: OK
+
+=== 3) PULL da GitHub   [15:34:31]
+    COMANDO: git pull --no-edit
+Already up to date.
+    ESITO: OK
+
+=== 4) PUSH su GitHub   [15:34:32]
+    COMANDO: git push
+To https://github.com/icivixwalter/MSys_TB06_MENU.git
+   a22aea1..2badb68  main -> main
+    ESITO: OK
+
+=== 5) STATO FINALE   [15:34:35]
+    COMANDO: git status -sb
+## main...origin/main
+ M git_LOG.txt
+    ESITO: OK
+
+################################################################
+### ESITO FINALE: TUTTO OK - repository allineato con GitHub
+### FINE  17/11/2026  15:34:36
+################################################################
+
+################################################################
+### INIZIO  17/11/2026  17:20:08
+### PC: HPGIACOMO   UTENTE: giaco
+### REPOSITORY: C:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_TB06_MENU
+################################################################
+
+=== 0) CONTROLLO REPOSITORY   [17:20:08]
+    COMANDO: git rev-parse --show-toplevel
+C:/CASA/LINGUAGGI/ACCESS/PROGETTI_MDB/MSYS/MSys_TB06_MENU
+    ESITO: OK
+
+=== 0b) PROTEZIONE .gitignore - resta sul PC e negli zip, MAI su GitHub   [17:20:09]
+    .git\info\exclude: aggiunta la regola .gitignore
+    .git\info\exclude: aggiunta la regola git_LOG.txt
+    .git\info\exclude: aggiunta la regola AA_BACKUP_GITHUB/
+    .git\info\exclude: aggiunta la regola AA_SALVATAGGI/
+    .gitignore escluso da git: OK
+
+=== 1) STATUS   [17:20:09]
+    COMANDO: git status -s
+ M AA_SALVATAGGI/Zip_N70_ElencoFile_PRECEDENTE.txt
+ M ZIP_7ZIP_INCREMENTALE_{CRIPTA+DECODIFICA_INTERNO}.BAT
+ M Zip_N70_CREA_ElencoFile.bat
+ M Zip_N70_ElencoFile.txt
+ M git_COMMIT.BAT
+ M git_LOG.txt
+ M git_OPEN_OVERLEAF.BAT
+ M git_PULL.BAT
+ M git_RICOSTRUISCI_GITHUB.BAT
+ M git_STATUS+PULL+ADD+COMMIT+PUSH.BAT
+    ESITO: OK
+
+=== 2a) ADD di tutte le modifiche   [17:20:09]
+    COMANDO: git add -A

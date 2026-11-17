@@ -1,6 +1,8 @@
 //ATTENZIONE AGLI SPAZI DI FINE RIGA non ci devono essere altrimenti non salva
 //questo è il secondo esempio con path e file liberi senza .\ e sembra che funziona
 //............................................................................//
+.git\
+.gitignore
 AA__________________________________________________________________________AA.txt
 git_CANCELLA_TUTTI_I_DATI_IN_GITHUB.BAT
 git_COMMIT.BAT
