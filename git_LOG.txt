@@ -577,3 +577,105 @@ C:/CASA/LINGUAGGI/ACCESS/PROGETTI_MDB/MSYS/MSys_TB06_MENU
 
 === 2a) ADD di tutte le modifiche   [22:36:32]
     COMANDO: git add -A
+warning: in the working copy of 'MASTER_PLAN/MSys_TB06_00_MASTER_PLAN.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'MASTER_PLAN/STRUMENTI/md2html.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Project_MSys_TB06_MENU.sublime-workspace', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'git_LOG.txt', LF will be replaced by CRLF the next time Git touches it
+    ESITO: OK
+
+=== 2b) COMMIT   [22:36:33]
+    COMANDO: git commit -m "2026_11_15_H22_M36_S32_aggiornamento_MSYS"
+[main a22aea1] 2026_11_15_H22_M36_S32_aggiornamento_MSYS
+ 43 files changed, 3962 insertions(+)
+ create mode 100644 AA_SALVATAGGI/2026_11_15_ZIP_SALVATAGGI_MSys_TB06_MENU.GE614
+ create mode 100644 AA_SALVATAGGI/2026_11_15_ZIP_SALVATAGGI_MSys_TB06_MENU_LISTA.TXT
+ create mode 100644 AA_SALVATAGGI/Zip_N70_ElencoFile_PRECEDENTE.txt
+ create mode 100644 AA__________________________________________________________________________AA.txt
+ create mode 100644 MASTER_PLAN/MSys_TB06_00_MASTER_PLAN.html
+ create mode 100644 MASTER_PLAN/MSys_TB06_00_MASTER_PLAN.md
+ create mode 100644 MASTER_PLAN/STRUMENTI/GENERA_HTML.bat
+ create mode 100644 MASTER_PLAN/STRUMENTI/md2html.py
+ create mode 100644 MDB/AA__________________________________________________________________________AA.txt
+ create mode 100644 MDB/BACKUP_CLAUDE_2026_11_15_19_36_13_PRIMA_RINOMINA_TB06/MENU_GESTIONE.mdb
+ create mode 100644 MDB/BACKUP_CLAUDE_2026_11_15_19_36_13_PRIMA_RINOMINA_TB06/MENU_TB01_VOCI.mdb
+ create mode 100644 MDB/BACKUP_CLAUDE_2026_11_15_19_36_13_PRIMA_RINOMINA_TB06/MENU_TB02_FUNZIONI.mdb
+ create mode 100644 MDB/BACKUP_CLAUDE_2026_11_15_19_36_13_PRIMA_RINOMINA_TB06/MENU_TB03_OGGETTI.mdb
+ create mode 100644 MDB/GE_MSys_TB06_MENU.mdb
+ create mode 100644 MDB/MSys_TB06_MENU_VOCI.mdb
+ create mode 100644 MDB/MSys_TB07_MENU_FUNZIONI.mdb
+ create mode 100644 MDB/MSys_TB08_MENU_OGGETTI.mdb
+ create mode 100644 MDB/ZZ__________________________________________________________________________ZZ.txt
+ create mode 100644 MSYS_MENU_TABELLE_LINK.MD
+ create mode 100644 MSYS_N02________________________________________________________________MSYS.txt
+ create mode 100644 Project_MSys_TB06_MENU.sublime-project
+ create mode 100644 Project_MSys_TB06_MENU.sublime-workspace
+ create mode 100644 ZIP_7ZIP_INCREMENTALE_FILE_LOG.TXT
+ create mode 100644 ZIP_7ZIP_INCREMENTALE_{CRIPTA+DECODIFICA_INTERNO}.BAT
+ create mode 100644 ZIP_7ZIP_________________________________________________________________ZZ.txt
+ create mode 100644 Zip_N70_CREA_ElencoFile.bat
+ create mode 100644 Zip_N70_CRIPTA.bat
+ create mode 100644 Zip_N70_DECODIFICA.bat
+ create mode 100644 Zip_N70_ElencoFile.txt
+ create mode 100644 Zip_N70_ElencoFileESCLUSI.txt
+ create mode 100644 Zip_N70____________________________________________CRIPTA_DECODIFICA.txt
+ create mode 100644 git_CANCELLA_TUTTI_I_DATI_IN_GITHUB.BAT
+ create mode 100644 git_COMMIT.BAT
+ create mode 100644 git_CREATE_GITHUB.BAT
+ create mode 100644 git_CREA_SALVATAGGIO.BAT
+ create mode 100644 git_LOG.txt
+ create mode 100644 git_OPEN_OVERLEAF.BAT
+ create mode 100644 git_OpenGitHub.bat
+ create mode 100644 git_PULL.BAT
+ create mode 100644 git_PUSH.BAT
+ create mode 100644 git_RICOSTRUISCI_GITHUB.BAT
+ create mode 100644 git_STATUS+PULL+ADD+COMMIT+PUSH.BAT
+ create mode 100644 git_STATUS.BAT
+    ESITO: OK
+
+=== 2c) CONTROLLO MAIN SVUOTATO su GitHub   [22:36:33]
+    COMANDO: git fetch origin
+    ESITO: OK
+
+=== 3) PULL da GitHub   [22:36:34]
+    COMANDO: git pull --no-edit
+Already up to date.
+    ESITO: OK
+
+=== 4) PUSH su GitHub   [22:36:35]
+    COMANDO: git push
+To https://github.com/icivixwalter/MSys_TB06_MENU.git
+   86066c3..a22aea1  main -> main
+    ESITO: OK
+
+=== 5) STATO FINALE   [22:36:40]
+    COMANDO: git status -sb
+## main...origin/main
+ M git_LOG.txt
+    ESITO: OK
+
+################################################################
+### ESITO FINALE: TUTTO OK - repository allineato con GitHub
+### FINE  15/11/2026  22:36:40
+################################################################
+
+################################################################
+### INIZIO  17/11/2026  15:34:30
+### PC: HPGIACOMO   UTENTE: giaco
+### REPOSITORY: C:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_TB06_MENU
+################################################################
+
+=== 0) CONTROLLO REPOSITORY   [15:34:30]
+    COMANDO: git rev-parse --show-toplevel
+C:/CASA/LINGUAGGI/ACCESS/PROGETTI_MDB/MSYS/MSys_TB06_MENU
+    ESITO: OK
+
+=== 1) STATUS   [15:34:30]
+    COMANDO: git status -s
+ M AA_SALVATAGGI/2026_11_15_ZIP_SALVATAGGI_MSys_TB06_MENU.GE614
+ M AA_SALVATAGGI/2026_11_15_ZIP_SALVATAGGI_MSys_TB06_MENU_LISTA.TXT
+ M ZIP_7ZIP_INCREMENTALE_FILE_LOG.TXT
+ M git_LOG.txt
+    ESITO: OK
+
+=== 2a) ADD di tutte le modifiche   [15:34:30]
+    COMANDO: git add -A
